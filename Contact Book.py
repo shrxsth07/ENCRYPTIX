@@ -25,7 +25,7 @@ Enter your choice - '''))
         search=input("Please provide the contact name - ")
 
         if search in contact_book:
-            print(search,"'s contact number is - ",contact_book[search])        #displaying a single contact
+            print(search," contact number is - ",contact_book[search])         #displaying a single contact
             print("\n")
             
         else:
@@ -57,7 +57,6 @@ Enter your choice - '''))
             for key in contact_book:
                 print(key,"\t",contact_book.get(key))
             print("\n")
-            
             
         else:
             print("NOT FOUND, Please provide a valid name...")
